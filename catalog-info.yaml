@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Component
+metadata:
+  name: idp-test
+  description: Hello Politie Portal
+  labels:
+    example.com/custom: test_label
+  tags:
+    - java
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: development
+  owner: daniel
+  system: public-websites
